@@ -48,6 +48,15 @@ With the following software and hardware list you can run all code files present
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://packt.link/dD3Jv).
 
+## Errata
+* Page 9:
+
+  ```We can scale horizontally, which means that we can allocate more CPU and RAM when the load increases. Alternatively, we can scale vertically by spawning more instances of the service to be load balanced.```
+
+  should be
+
+  ```We can scale vertically, which means that we can allocate more CPU and RAM when the load increases. Alternatively, we can scale horizontally by spawning more instances of the service to be load balanced.```
+
 ### Related products
 * Building Microservices with Go  [[Packt]](https://www.packtpub.com/product/building-microservices-with-go/9781786468666?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1786468662)
 
